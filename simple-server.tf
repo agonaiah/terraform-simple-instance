@@ -11,10 +11,10 @@ resource "aws_instance" "simple-server" {
     tags = {
         Name = "${var.prefix}-simple-server"
         owner = var.owner
-        se-region = var.se_region
-        purpose = var.purpose
-        ttl = var.ttl
-        terraform = var.terraform
+        #se-region = var.se_region
+        #purpose = var.purpose
+        #ttl = var.ttl
+        #terraform = var.terraform
     }
 }
 
